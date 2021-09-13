@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main class="container">
+    <section>
+        
+        <img id="logo"src="./img/GM_CMYK_Neg_Selo_V1_300dpi.jpg" alt="gustavo medeiros fotografia">
+        <h2>Eu</h2>
+    </section>
+    <legend>Dados Pessoais</legend>
+    <form action="email" method="POST">
+    <fieldset>
+    
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required placeholder="Email">
+
+    <label for="nome"> Nome</label>
+    <input type="text" name="nome" placeholder="Nome" id="nome" disabled>
+    <label for="Comentario"> Comentário </label>
+    <textarea name="Comentario" id="Comentario" cols="30" rows="10" placeholder="Digite aqui seu comentário"> </textarea>
+</fieldset>
+<fieldset>
+    <legend> serviços</legend>
+    <label for="servicos"> Serviços</label>
+    <select name="servicos" id="servicos">
+        <option value="">Selecione</option>
+        <option value="casamento">Casamento</option>
+        <optgroup label="Aniversários">
+        <option value="aniversarios">Aniversário Infantil</option>
+        <option value="15anos">15 Anos</option>
+    </optgroup>
+        <option value="ensaios">Ensaios</option>
+        <option value="batizados">Batizados</option>
+
+    </select>
+</fieldset>
+
+<fieldset>
+    <legend> Formas de Pagamento</legend>  
+<div class="metodopagamento">
+<input type="radio" name="pagamento" id="dinheiro"> 
+<label for="dinheiro"> Dinheiro </label>
+<input type="radio" name="pagamento" id="credito"> 
+<label for="credito"> Crédito </label>
+<input type="radio" name="pagamento" id="debito">
+<label for="debito"> Débito </label>
+<input type="radio" name="pagamento" id="pix" checked>
+<label for="pix"> Pix </label> 
+</div>
+</fieldset>
+
+<fieldset>
+    <legend> Formas de Pagamento</legend>  
+<div class="opcionais">
+    <input type="checkbox" name="album" id="album"> 
+    <label for="album"> Álbum </label>
+    <input type="checkbox" name="fotos" id="fotos"> 
+    <label for="fotos"> Fotos impressas</label>
+    </div>
+    </fieldset>
+<fieldset>
+<legend>Marque uma Reunião</legend>
+<input type="date" name="data" id="data">
+
+</fieldset>
+
+    <label for="nome"></label>
+    <button type="submit">Enviar</button>
+    <button type="reset">Cancelar</button>
+</form>
+</main>
+</body>
+</html>
+
+<textarea name="" id="" cols="30" rows="10"></textarea>

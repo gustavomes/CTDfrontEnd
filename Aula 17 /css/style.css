@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    background-image: url(https://alfred.alboompro.com/resize/width/2400/url/storage.alboom.ninja/sites/1782/albuns/471996/casamento-aurora-paul-casal-clube-caiaras-rj-gustavo-medeiros-fotografia-niteri-19.jpg?t=1562692965);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;;
+    
+
+}
+
+#logo {
+    height: 500px;
+    width: 530px;
+    border-radius: 50%;
+    opacity: 80%;
+}
+
+label {
+    display: block;
+    color: white;
+}
+
+#servicos {
+    display:
+    text-align: center;
+}
+legend {
+    color: white;
+}
+.metodopagamento label, opcionais label {
+    display: inline-block;
+    margin:  0 10px 0 0;
+}
+
+.container {
+    padding: 10 35%;
+    text-align: center;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    transition: all 0.5 ease-in-out;
+}
+
+textarea:hover {
+    background-color: purple;
+
+}textarea:focus {
+    background-color: yellow;
+}
+
+main {
+    color: white;
+    animation: mainAnimation 2s 2;
+    padding: 0 30%;
+}
+@keyframes mainAnimation {
+    from {
+        transform: scale(0) translateX(-100%) translateY(-100%) rotate(1080deg);
+    }
+    to{
+        transform: scale(100%) translateX(0) translateY(0) rotate(0);
+    }
+}
+
+main img {
+
+    transition: transition: all 0.5 ease-in-out;
+    // animation: imageRotate 2s infinite;
+
+}
+
+@keyframes imageRotate {
+    0% {
+        transform: scale(1) rotate(0);
+    }
+    50%{
+        transform: scale(1.8) rotate(360deg);
+    }
+    100% {
+        transform: scale(1) rotate(0);
+    }
+}
+
+
+main img:hover {
+    filter:grayscale(100);
+    animation: imageRotate 5s;
+
+}
+
+h2::after {
+    content: 'como tudo isso';
+}
+
+
+
+input:[type="email"]:hover{
+    background-color: rgb(0, 0, 255);
+}
+
+input:disabled {
+    background-color: yellow;
+}
+
+h2:first-letter{
+    color: blue;
+}
+
+fieldset:nth-child(1) {
+    background: rgb(199, 30, 30);
+    color: brown;
+}
+fieldset:nth-child(2) {
+    background: green;
+   
+}
+fieldset:nth-child(3) {
+    background: purple;
+   
+}
+fieldset:nth-child(4) {
+    background: blue;
+   
+}

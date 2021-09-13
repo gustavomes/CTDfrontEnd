@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.banner {
+    background-image: url(../img/banner-aula10.png);
+    height: 600px;
+    text-align: center;
+    background-size: contain;
+
+}
+
+.text {
+    color: white;
+}
+
+.botao {
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 12px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.conteudo {
+    padding-top: 260px;
+}
+
+.botao:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.text:hover {
+
+    background-color: rgb(255, 255, 255, 0.4);
+    color: white;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
