@@ -10,7 +10,10 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Manrope', sans-serif;   
+    font-family: 'Manrope', sans-serif; 
+  
+ 
+
 }
 header {
     text-align: center;
@@ -19,9 +22,11 @@ header {
 
 .section1 {
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    align-items: center;
     gap: 30px;
     flex-wrap: wrap;
+    padding: 10px 150px;
 }
 
 .section1 div img{
