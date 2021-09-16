@@ -11,6 +11,9 @@ body {
     background-color: black;
     color: white;
     font-family: 'Manrope', sans-serif; 
+    max-width: 1500px;
+    
+
   
  
 
@@ -26,16 +29,23 @@ header {
     align-items: center;
     gap: 30px;
     flex-wrap: wrap;
-    padding: 10px 150px;
+    padding: 10px;
+    flex-direction:row;
+   
 }
 
 .section1 div img{
     width: 400px;
     height: 250px;
 }
+img:hover {
+    filter: grayscale();
+}
 
 h2 {
     font-size: 25px;
     
 }
+
+
 
