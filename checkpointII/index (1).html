@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style1.css" />
+    <title>Formulário - Checkpoint 02</title>
+  </head>
+  <body>
+    <main class="principal">
+      <div class="formulario">
+      <form action="#" method="POST">
+        <fieldset>
+          <legend>Dados pessoais:</legend>
+          <label for="nome">Nome: </label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Insira seu nome"
+            maxlength="100"
+            required
+          />
+          <br /><br />
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="seu-email@email.com"
+            required
+          /><br /><br />
+          <label for="telefone">Telefone: </label>
+          <input
+            type="tel"
+            name="nome"
+            id="telefone"
+            placeholder="48999999999"
+            pattern="[0-9]{11}"
+            required
+          /><br /><br />
+          <label for="Nascimento">Data de Nascimento: </label>
+          <input type="date" name="data" id="Nascimento" required /><br /><br />
+          <div class="opcoes-em-linha">
+            <div>
+              <input type="radio" name="Maioridade" id="Menor" required /><label
+                for="Menor"
+              >
+                Menor de idade
+              </label>
+            </div>
+            <div>
+              <input type="radio" name="Maioridade" id="Maior" required /><label
+                for="Maior"
+              >
+                Maior de idade
+              </label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Informações turísticas:</legend>
+          <label for="pontos">Pontos Turísticos</label>
+          <select name="pontos" id="pontos">
+            <option value="">Escolha uma opção</option>
+            <optgroup label="Praias">
+              <option value="campeche">Praia do Campeche</option>
+              <option value="canasvieiras">Praia de Canasvieiras</option>
+              <option value="joaquina">Praia da Joaquina</option>
+              <option value="jurere">Praia de Jurerê Internacional</option>
+            </optgroup>
+            <optgroup label="Trilhas">
+              <option value="gravata">Trilha do Gravatá</option>
+              <option value="lagoinha">Trilha da Lagoinha do Leste</option>
+              <option value="saquinho">Trilha da praia do Saquinho</option>
+            </optgroup>
+            <optgroup label="Cachoeiras">
+              <option value="costa">Cachoeira Costa da Lagoa</option>
+              <option value="solidao">Cachoeira da Solidão</option>
+            </optgroup>
+          </select>
+          <br><br>
+          <div class="centralizar">
+          <label  for="turismo">Interesses na cidade: </label></div>
+          <div class="opcoes-em-linha">  
+            <div>
+              <input
+                type="checkbox"
+                name="interesses"
+                id="turista"
+                value="turista"
+              /><label for="turista"> Turista </label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                name="interesses"
+                id="residente"
+                value="residente"
+              /><label for="residente"> Residente </label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                name="interesses"
+                id="estudante"
+                value="estudante"
+              /><label for="estudante"> Estudante </label>
+            </div>
+          </div>
+        </select>
+        </fieldset>
+        <div class="botoes">
+        <button type="submit">Enviar</button>
+      <button type="reset">Resetar</button></div>
+      </form></div>
+    </main>
+  </body>
+</html>

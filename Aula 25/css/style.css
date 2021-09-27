@@ -1,0 +1,10 @@
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(https://i.pinimg.com/originals/8d/85/c4/8d85c4af3912d39f02923312f12f3832.jpg);
+    height: calc(100vh - 56px);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
